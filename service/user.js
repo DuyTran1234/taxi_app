@@ -1,5 +1,5 @@
 const User = require("../model//user");
-
+//test
 const login = async ({ name, email, phone, active }) => {
     try {
         const rs = await User.findOne({ phone });
